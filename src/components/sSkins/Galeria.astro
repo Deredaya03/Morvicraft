@@ -7,9 +7,9 @@ import "photoswipe/style.css";
         Array.from({ length: 14 }).map((_, i) => (
             <a
                 class="rounded-xl shadow-xl shadow-sky-300/10 hover:shadow-2xl hover:shadow-sky-300/75 overflow-hidden hover:scale-105 transition-all"
-                href={`/galeria`}
+                href={`/skin-page/gallery/img-${i + 1}.webp`}
             >
-                <img src={`/archivo-page/gallery/img-${i + 1}.webp`} alt="" />
+                <img src={`/skin-page/gallery/img-${i + 1}.webp`} alt="" />
             </a>
         ))
     }

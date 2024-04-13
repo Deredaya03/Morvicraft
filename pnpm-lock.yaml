@@ -26,6 +26,9 @@ dependencies:
   astro:
     specifier: ^4.6.0
     version: 4.6.0(typescript@5.4.5)
+  photoswipe:
+    specifier: ^5.4.3
+    version: 5.4.3
   preact:
     specifier: ^10.20.2
     version: 10.20.2
@@ -3358,6 +3361,11 @@ packages:
 
   /path-to-regexp@6.2.2:
     resolution: {integrity: sha512-GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==}
+    dev: false
+
+  /photoswipe@5.4.3:
+    resolution: {integrity: sha512-9UC6oJBK4oXFZ5HcdlcvGkfEHsVrmE4csUdCQhEjHYb3PvPLO3PG7UhnPuOgjxwmhq5s17Un5NUdum01LgBDng==}
+    engines: {node: '>= 0.12.0'}
     dev: false
 
   /picocolors@1.0.0:
