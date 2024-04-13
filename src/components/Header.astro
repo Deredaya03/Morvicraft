@@ -1,0 +1,27 @@
+---
+import Logo from "./sIndex/Logo.astro";
+---
+
+<header id="header-nav" class="fixed w-screen py-3 z-50 top-0 px-8 lg:px-0">
+    <div
+        class="grid grid-cols-4 max-w-7xl mx-auto items-center justify-between"
+    >
+        <a href="/" class="size-6">
+            <Logo fill="white" class="size-8" />
+        </a>
+        <nav class="col-span-2 justify-self-center">
+            <ul class="flex gap-4">
+                <li>
+                    <a class="hover:underline" href="/info"
+                        >INFORMACIÓN</a
+                    >
+                </li>
+                <li>
+                    <a class="hover:underline" href="/archivo"
+                        >ARCHIVO</a
+                    >
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
