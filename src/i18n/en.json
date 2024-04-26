@@ -1,0 +1,52 @@
+{
+    "SEO_TITLE": "Welcome to Morvi",
+    "SEO_DESCRIPTION": "Hispanic Technical-Decorative Realm of Minecraft Bedrock",
+
+    "SEO_TITLE_INFO": "Morvicraft Information",
+    "SEO_DESCRIPTION_INFO": "Morvicraft Information",
+
+    "SEO_TITLE_ARCHIVE":"Morvicraft Archive",
+    "SEO_DESCRIPTION_ARCHIVE": "Picture & Moments of Morvicraft",
+
+    "INTRO_TITLE": "Welcome to",
+    "INTRO_TITLE_AFTER_BR": "Morvi",
+    
+    "INTRO_DESCRIPTION_1": "Come and have fun on this incredible Minecraft server!!!<br /> Talk about your experiences, post your builds and discuss Redstone!",
+    "INTRO_DESCRIPTION_2": "You can also apply to be a participant in our Technical Bedrock Minecraft Realm where you can contribute with the best farms or the best constructions and leave your great mark on the server.",
+    
+    "HANDER_INFO": "INFO",
+    "HANDER_ARCHIVE": "ARCHIVE",
+    
+    "BENTO_TITLE_1": "Morvi Members",
+    "BENTO_TITLE_2": "Catches",
+    "BENTO_TITLE_3": "Projects",
+    "BENTO_TITLE_4": "Discord",
+    
+    "BENTO_SUBTITLE_1": "",
+    "BENTO_SUBTITLE_2": "Members' Advances and Moments",
+    "BENTO_SUBTITLE_3": "Active jobs at Morvicraft",
+    "BENTO_SUBTITLE_4": "",
+    
+    "BENTO_CONTENT_1": "Skin and Role of All Members",
+    "BENTO_CONTENT_2": "",
+    "BENTO_CONTENT_3": "",
+    "BENTO_CONTENT_4": "",
+    
+    "BENTO_CONTENT_AFTER_STRONG_1": "Morvicraft",
+    "BENTO_CONTENT_AFTER_STRONG_2": "",
+    "BENTO_CONTENT_AFTER_STRONG_3": "",
+    "BENTO_CONTENT_AFTER_STRONG_4": "",
+
+    "PREFOOTER_CONTENT":"morvicraft advertising",
+
+    "FOOTER_TITLE_1": "LEGAL",
+    "FOOTER_TITLE_2": "WEB MAP",
+
+    "FOOTER_CONTENT_1-1": "Legal Warning",
+    "FOOTER_CONTENT_1-2": "Privacy",
+    "FOOTER_CONTENT_1-3": "Cookies",
+
+    "FOOTER_CONTENT_2-1": "Home",
+    "FOOTER_CONTENT_2-2": "Info",
+    "FOOTER_CONTENT_2-3": "Archive"
+}

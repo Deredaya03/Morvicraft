@@ -1,0 +1,80 @@
+---
+import BentoItem from "../components/BentoItem.astro";
+import { getI18N } from "../i18n/";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<section
+    class={`
+        w-full max-w-[1400px]
+        grid grid-cols-10 auto-rows-[25rem] gap-4
+        mx-auto p-20
+    `}
+>
+    <BentoItem
+        class="col-span-10 md:col-span-4"
+        title={i18n.BENTO_TITLE_1}
+        subtitle={i18n.BENTO_SUBTITLE_1}
+        page="Skins"
+    >
+        <div
+            slot="image"
+            class="absolute left-0 top-0 bottom-0 w-full
+            h-full group-hover:scale-110 transition-scale duration-1000
+            ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat -z-10"
+            style="background-image: url('/SkinBento.webp')"
+        >
+        </div>
+        <p slot="content" class="max-w-xl">
+            {i18n.BENTO_CONTENT_1}
+            <strong>{i18n.BENTO_CONTENT_AFTER_STRONG_1}</strong>
+        </p>
+    </BentoItem>
+    <BentoItem
+        class="col-span-10 md:col-span-6"
+        title={i18n.BENTO_TITLE_2}
+        subtitle={i18n.BENTO_SUBTITLE_2}
+        page="Capturas"
+    >
+        <div
+            slot="image"
+            class="absolute left-0 top-0 bottom-0 w-full
+              h-full group-hover:scale-110 transition-scale duration-1000
+              ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat -z-10"
+            style="background-image: url('/ShulkerFarm.webp')"
+        >
+        </div>
+    </BentoItem>
+    <BentoItem
+        class="col-span-10 md:col-span-6"
+        title={i18n.BENTO_TITLE_3}
+        subtitle={i18n.BENTO_SUBTITLE_3}
+        page="Proyectos"
+    >
+        <div
+            slot="image"
+            class="absolute left-0 top-0 bottom-0 w-full
+          h-full group-hover:scale-110 transition-scale duration-1000
+          ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat -z-10"
+            style="background-image: url('/Farm2.webp')"
+        >
+        </div>
+    </BentoItem>
+    <BentoItem
+        class="col-span-10 md:col-span-4"
+        title={i18n.BENTO_TITLE_4}
+        subtitle={i18n.BENTO_SUBTITLE_4}
+        page="https://discord.gg/yZrC4UwxhS"
+    >
+        <div
+            slot="image"
+            class="absolute left-0 top-0 bottom-0 w-full
+            h-full group-hover:scale-110 transition-scale duration-1000
+            ease-in-out opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat -z-10"
+            style="background-image: url('/OroFarm.webp');"
+        >
+        </div>
+    </BentoItem>
+</section>
